@@ -298,11 +298,23 @@ button2 {
   .buttonContainer {
     clear: both;
     float: left;
-    margin-left: 30%;
+    margin-left: 23%;
+    margin-top: 0px;
   }
 
   button {
     float: center;
+  }
+
+  .titleBar {
+    float: left;
+    margin-left: 20%;
+    margin-top: 20px;
+  }
+
+  footer {
+    margin-left: 0px;
+    width: 100%;
   }
 
 }
@@ -316,6 +328,11 @@ button2 {
 
   button {
     float: right;
+  }
+
+  footer {
+    margin-left: 0px;
+    width: 94%;
   }
 
 }
