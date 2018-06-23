@@ -23,9 +23,10 @@ body {
   float: left;
   margin-left: 0%;
   margin-bottom: 20px;
+  padding: 20px;
   color:#eee;
-  width: 30%;
-  height: 70px;
+  width: auto;
+  height: auto;
   background: rgb(113, 212, 219);
 }
 
@@ -55,21 +56,29 @@ button:hover {
 .about {
   float: right;
   margin-right: 5px;
-  width: 11%;
+  width: auto;
   color: #fff;
   margin-right: 0%;
 }
 
 .portfolio {
   float: right;
-  width: 11%;
+  width: auto;
   color: #fff;
+}
+
+.nameLogo {
+  height: auto;
 }
 
 .contact {
   float: right;
-  width: 11%;
+  width: auto;
   color: #fff;
+}
+
+.buttonContainer {
+  margin-top: 20px;
 }
 
 .row{
@@ -285,20 +294,26 @@ button2 {
 /* Screen width between 0 and 640 */
 @media screen and (max-width: 640px) and (min-width: 0px) {
   body {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
+
+
   }
 }
 
 /* Screen width between 640 and 768 */
 @media screen and (max-width: 768px) and (min-width: 640px) {
   body {
-    background-color: rgb(238, 144, 144);
+    /* background-color: rgb(238, 144, 144); */
+
+
   }
 }
 
 /* Screen width larger than 768 */
 @media screen and (min-width: 768px)  {
   body {
-    background-color: rgb(169, 144, 238);
+    /* background-color: rgb(169, 144, 238); */
+
+
   }
 }
