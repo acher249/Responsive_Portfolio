@@ -340,8 +340,8 @@ button2 {
 /* Screen width larger than 768 */
 @media screen and (min-width: 768px)  {
   body {
-    margin-left: 10%;
-    width: 60%;
+    margin-left: 15%;
+    width: 70%;
   }
 
   button {
