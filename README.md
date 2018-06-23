@@ -1,2 +1,4 @@
-# Responsive_Portfolio
-Responsive_Portfolio
+# Basic-Portfolio
+Adam Chernick Basic Portfolio
+
+Assignment 1

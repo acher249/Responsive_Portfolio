@@ -1,0 +1,280 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Titillium+Web", Arial, Helvetica, sans-serif;
+}
+
+body {
+  align-content: center;
+  width: 70%;
+  margin-left: 15%;
+  line-height: 32px;
+  color: #333;
+  background: #eee;
+}
+
+.titleBar {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24pt;
+  float: left;
+  margin-left: 0%;
+  margin-bottom: 20px;
+  color:#eee;
+  width: 30%;
+  height: 70px;
+  background: rgb(113, 212, 219);
+}
+
+/* Need this for padding */
+section {
+  padding: 20px;
+  background: #eee;
+}
+
+button {
+  background-color: #eee;
+  border: none;
+  color: rgb(168, 168, 168);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  float: right;
+}
+
+/* psuedo class */
+button:hover {
+  background: rgb(212, 212, 212);
+  color: white;
+}
+
+.about {
+  float: right;
+  margin-right: 5px;
+  width: 11%;
+  color: #fff;
+  margin-right: 0%;
+}
+
+.portfolio {
+  float: right;
+  width: 11%;
+  color: #fff;
+}
+
+.contact {
+  float: right;
+  width: 11%;
+  color: #fff;
+}
+
+.row{
+  clear: both;
+  background: white;
+}
+
+.whiteBackground{
+  background: white;
+}
+
+.backgroundImage1 {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-size: 400px 200px;
+  background-image: url("https://images.unsplash.com/photo-1507010618954-137246650c6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f9fa530f683920605113cd2915473bf&auto=format&fit=crop&w=634&q=80")
+}
+
+.backgroundImage2 {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-size: 400px 200px;
+  background-image: url("https://images.unsplash.com/photo-1507181179506-598491b53db4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=299b6fae13eb39086f5bb28029c61760&auto=format&fit=crop&w=1489&q=80")
+}
+
+.backgroundImage3 {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-size: 400px 200px;
+  background-image: url("https://images.unsplash.com/photo-1523872135651-514afbd57180?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2c58d885254aa2991a2f14d3c06a5d40&auto=format&fit=crop&w=1246&q=80")
+}
+
+.backgroundImage4 {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-size: 400px 200px;
+  background-image: url("https://images.unsplash.com/photo-1486520299386-6d106b22014b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b8e3bc7d37546268c95f0885ea821717&auto=format&fit=crop&w=1350&q=80")
+}
+
+.backgroundImage5 {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-size: 400px 200px;
+  background-image: url("https://images.unsplash.com/photo-1491719302159-fcdf021abd5c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=edec06b3daef51c2ad631da14044445e&auto=format&fit=crop&w=1373&q=80")
+}
+
+
+/* Use Google Fonts */
+.banner {
+  font-family: "Titillium+Web", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 6;
+  margin-top: 140px;
+  float: left;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  background: rgb(91, 156, 91);
+  color: white;
+}
+
+.bannerText {
+  line-height: 50px;
+  background: rgba(0, 0, 0, 0);
+}
+
+#full {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  background: rgb(255, 255, 255);
+}
+
+.image {
+  padding: 20px;
+  margin-bottom: 20px;
+  float: left;
+  background: #fff;
+}
+
+aside {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+input {
+  color: rgb(97, 97, 97);
+  text-align: left;
+}
+
+p {
+    text-align: left;
+    font-size: 18px;
+}
+
+h2 {
+  text-align: left;
+  margin-left: 0px;
+  font-size: 32px;
+  line-height: 32px;
+  color: rgb(113, 212, 219);
+}
+
+footer {
+  position: fixed;
+  width: 70%;
+  margin-right: 15%;
+  bottom: 0px;
+  padding: 10px;
+  clear: both;
+  color: white;
+  background: rgb(53, 53, 53);
+  font-size: 12px;
+}
+
+/* Form Styling */
+/***********************************************************/
+
+form {
+  background: #fff;
+  width: 100%;
+  /* To see the outline of the form */
+  padding: 1em;
+}
+
+form div + div {
+  width: 100%;
+  margin-top: 1em;
+}
+
+label {
+  font-size: 24px;
+  background: #fff;
+  width: 100%;
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  text-align: left;
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 18pt sans-serif;
+
+  /* To give the same size to all text fields */
+  width: 100%;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  width: 100%;
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  color: rgb(97, 97, 97);
+
+  text-align: left;
+  width: 100%;
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 200px;
+}
+
+.button2 {
+  margin-left: 0px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(82, 82, 82);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button2 {
+  width: 180px;
+  float: left;
+  padding: 6px;
+  margin-top: 20px;
+  margin-left: 0px;
+  background-color: rgb(113, 212, 219);
+  border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
