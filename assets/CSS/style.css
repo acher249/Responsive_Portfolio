@@ -10,8 +10,6 @@
 
 body {
   align-content: center;
-  width: 70%;
-  margin-left: 15%;
   line-height: 32px;
   color: #333;
   background: #eee;
@@ -40,11 +38,10 @@ button {
   background-color: #eee;
   border: none;
   color: rgb(168, 168, 168);
-  padding: 15px 32px;
+  padding: 16px 12px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  float: right;
 }
 
 /* psuedo class */
@@ -78,7 +75,7 @@ button:hover {
 }
 
 .buttonContainer {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .row{
@@ -294,26 +291,44 @@ button2 {
 /* Screen width between 0 and 640 */
 @media screen and (max-width: 640px) and (min-width: 0px) {
   body {
-    /* background-color: lightgreen; */
-
-
+    margin-left: 0px;
+    width: 100%;
   }
+
+  .buttonContainer {
+    clear: both;
+    float: left;
+    margin-left: 30%;
+  }
+
+  button {
+    float: center;
+  }
+
 }
 
 /* Screen width between 640 and 768 */
 @media screen and (max-width: 768px) and (min-width: 640px) {
   body {
-    /* background-color: rgb(238, 144, 144); */
-
-
+    margin-left: 3%;
+    width:94%;
   }
+
+  button {
+    float: right;
+  }
+
 }
 
 /* Screen width larger than 768 */
 @media screen and (min-width: 768px)  {
   body {
-    /* background-color: rgb(169, 144, 238); */
-
-
+    margin-left: 15%;
+    width: 60%;
   }
+
+  button {
+    float: right;
+  }
+
 }
