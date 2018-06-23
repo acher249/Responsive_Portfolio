@@ -195,8 +195,8 @@ h2 {
 
 footer {
   position: fixed;
-  width: 70%;
-  margin-right: 15%;
+  width: 60%;
+  margin-left: 0%;
   bottom: 0px;
   padding: 10px;
   clear: both;
@@ -323,7 +323,7 @@ button2 {
 /* Screen width larger than 768 */
 @media screen and (min-width: 768px)  {
   body {
-    margin-left: 15%;
+    margin-left: 10%;
     width: 60%;
   }
 
