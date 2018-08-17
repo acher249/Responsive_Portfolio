@@ -90,46 +90,47 @@ button:hover {
 .backgroundImage1 {
   margin: 20px;
   float: left;
-  width: 200px;
+  width: 400px;
   height: 200px;
   background-size: 400px 200px;
-  background-image: url("https://images.unsplash.com/photo-1507010618954-137246650c6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f9fa530f683920605113cd2915473bf&auto=format&fit=crop&w=634&q=80")
+  background-image: url("gif.png")
 }
 
 .backgroundImage2 {
   margin: 20px;
   float: left;
-  width: 200px;
+  width: 400px;
   height: 200px;
   background-size: 400px 200px;
-  background-image: url("https://images.unsplash.com/photo-1507181179506-598491b53db4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=299b6fae13eb39086f5bb28029c61760&auto=format&fit=crop&w=1489&q=80")
+  background-image: url("train.png")
 }
 
 .backgroundImage3 {
   margin: 20px;
   float: left;
-  width: 200px;
+  text-align: center;
+  width: 400px;
   height: 200px;
   background-size: 400px 200px;
-  background-image: url("https://images.unsplash.com/photo-1523872135651-514afbd57180?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2c58d885254aa2991a2f14d3c06a5d40&auto=format&fit=crop&w=1246&q=80")
+  background-image: url("mud.png")
 }
 
 .backgroundImage4 {
   margin: 20px;
   float: left;
-  width: 200px;
+  width: 400px;
   height: 200px;
   background-size: 400px 200px;
-  background-image: url("https://images.unsplash.com/photo-1486520299386-6d106b22014b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b8e3bc7d37546268c95f0885ea821717&auto=format&fit=crop&w=1350&q=80")
+  background-image: url("starwars.png")
 }
 
 .backgroundImage5 {
   margin: 20px;
   float: left;
-  width: 200px;
+  width: 400px;
   height: 200px;
   background-size: 400px 200px;
-  background-image: url("https://images.unsplash.com/photo-1491719302159-fcdf021abd5c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=edec06b3daef51c2ad631da14044445e&auto=format&fit=crop&w=1373&q=80")
+  background-image: url("trivia.png")
 }
 
 
@@ -141,7 +142,7 @@ button:hover {
   margin-top: 140px;
   float: left;
   height: 50px;
-  width: 200px;
+  width: 400px;
   text-align: center;
   background: rgb(91, 156, 91);
   color: white;
